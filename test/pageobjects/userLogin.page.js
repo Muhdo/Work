@@ -6,12 +6,7 @@ class UserLoginPage extends Page {
     return $("#cookiesConsentAll");
   }
   get cancelSign() {
-    // return $("//div[@class='banner-close1 btn-ib-close']");
     return $("//div[@class ='banner-close1 btn-ib-close']");
-    // return $("//img[@alt='interstitial-close-image']");
-    // return $("/themes/custom/selfservice/images/feedback-cancel.svg");
-    // return $("#interstitial-desktop-modal > div.banner-close1.btn-ib-close > img");
-    // return $("//button[normalize-space()='Subscribe now']");
   }
   get signinBtn() {
     return $("//p[normalize-space()='Sign in']");
