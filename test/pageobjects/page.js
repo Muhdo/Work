@@ -10,10 +10,8 @@ module.exports = class Page {
    * @param path path of the sub page (e.g. /path/to/page.html)
    */
   open(path) {
-    // https://play.mtn.ng/
-    // https://playpreprod.mtn.ng/
-    // return browser.url(`https://play.mtn.ng/`);
-    return browser.url(`https://playpreprod.mtn.ng/`);
+     return browser.url(`https://play.mtn.ng/`);
+   
   }
   async scrollToElement(element, offset = 100) {
     await browser.execute(
